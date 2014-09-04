@@ -481,6 +481,15 @@ input[type=button]:active {
     background-color: #27A0BC;
 }
 
+div.article_divider {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div.article_divider:before {
+    content: '</>';
+}
+
 
 @media screen and (max-width: 980px) {
     .inner {
