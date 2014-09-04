@@ -93,6 +93,7 @@ h6 {
 
 p {
     margin: 10px 0 15px 0;
+    font-size: 19px;
 }
 
 footer p {
@@ -335,7 +336,7 @@ Full-Width Styles
 }
 
 #main_content {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 #footer_wrap {
@@ -484,6 +485,9 @@ input[type=button]:active {
 div.article_divider {
     text-align: center;
     margin: 20px 0;
+    background-color: #FFC66D;
+    color: #2B2B2B;
+    font-weight: bold;
 }
 
 div.article_divider:before {
