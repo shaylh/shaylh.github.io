@@ -534,6 +534,14 @@ div.article_divider:before {
         max-width: 70px;
     }
 
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
     #forkme_banner {
         display: none;
     }
