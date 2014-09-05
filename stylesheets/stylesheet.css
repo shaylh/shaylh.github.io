@@ -24,7 +24,6 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
     vertical-align: baseline;
 }
 
@@ -91,9 +90,13 @@ h6 {
     font-size: 16px;
 }
 
-p {
+p, a {
     margin: 10px 0 15px 0;
     font-size: 19px;
+}
+
+nav {
+    font-size: 18px;
 }
 
 footer p {
@@ -261,6 +264,7 @@ Full-Width Styles
     z-index: 10;
     padding: 10px 50px 10px 10px;
     color: #fff;
+    margin-top: 0px;
     background: url('../images/blacktocat.png') #2B2B2B no-repeat 95% 50%;
     font-weight: 700;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
@@ -500,6 +504,20 @@ div.article_divider:before {
         max-width: 820px;
     }
 
+    footer p, footer p a {
+        font-size: 14px;
+    }
+
+    footer p {
+        padding: 10px;
+        margin: 0;
+    }
+
+    footer.inner {
+        margin: 0;
+        padding: 0;
+    }
+
     div.skills > span {
         margin: 0 4px;
     }
@@ -509,11 +527,14 @@ div.article_divider:before {
     }
 
     div.gallery > img {
-        max-width: 170px;
+        max-width: 70px;
     }
 
     div.gallery > img.wide {
-        max-width: 170px;
+        max-width: 70px;
     }
 
+    #forkme_banner {
+        display: none;
+    }
 }
