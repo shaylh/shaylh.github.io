@@ -456,6 +456,10 @@ div.source:before {
     content: 'Full details and source code at ';
 }
 
+div.source a {
+    font-size: 16px;
+}
+
 a {
     color: #27A0BC;
 }
