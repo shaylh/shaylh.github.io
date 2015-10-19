@@ -438,6 +438,10 @@ div.gallery > img:hover {
     z-index: 9999;
 }
 
+div.skills {
+    word-wrap: break-word;
+}
+
 div.skills:before {
     content: 'TLDR: ';
     color: #D05757;
@@ -450,6 +454,7 @@ div.skills > span {
     background-color: darkolivegreen;
     color: #ffffff;
     margin: 0 2px;
+    line-height: 2;
 }
 
 div.source:before {
