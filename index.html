@@ -7,6 +7,8 @@
     <meta name="author" content="Shai Lachmanovich">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/prism.css">
+    <script src="javascript/prism.js"></script>
     <title>lachmanovi.ch - my personal online presence</title>
 </head>
 
@@ -61,7 +63,7 @@
             </p>
 
             <p>
-                I'm also in the process of obtaining a Bachelor degree in economics in <a href="http://english.tau.ac.il/" target="_blank">Tel-Aviv University</a>, and just started my 7th semester (out of 7).
+                I'm also in the process of obtaining a Bachelor degree in economics in <a href="http://english.tau.ac.il/" target="_blank">Tel-Aviv University</a>, and about to finish my last semester.
             </p>
 
         </article>
@@ -127,6 +129,21 @@
             <p>
                 Here are some of the things I've been working on at my spare time:
             </p>
+            <section>
+                <h5>Dependency tree resolver</h5>
+
+                <p>
+                    dep-res is an easy-to-use JS library to resolve dependencies in a dependency tree.
+                    It outputs the list of nodes in the correct order, and warns about cycles and unknown nodes.
+                </p>
+                <pre><code class="language-javascript">var tree = {a: [], b: ['c', 'd'], c: ['d'], d: ['a']};
+var resolved = DepResolver(tree);
+console.log(resolved);//['a','d','c','b' ]</code></pre>
+                <div class="source">
+                    <a href="https://github.com/shaylh/dependency-resolver" target="_blank">GitHub</a> & <a href="https://www.npmjs.com/package/dependency-tree-resolver" target="_blank">NPM</a>.
+                </div>
+            </section>
+            <hr/>
             <section>
                 <h5>xCards components</h5>
 
@@ -215,7 +232,7 @@
 <div id="footer_wrap" class="outer">
     <footer class="inner">
         <p>
-            All rights reserved to Shai Lachmanovich, 2015.<br>
+            All rights reserved to Shai Lachmanovich, 2016.<br>
             Published with <a href="http://pages.github.com">GitHub Pages</a>
         </p>
     </footer>

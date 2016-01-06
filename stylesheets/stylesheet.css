@@ -9,8 +9,8 @@ MeyerWeb Reset
 *******************************************************************************/
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+h1, h2, h3, h4, h5, h6, p, blockquote, /*pre,*/
+a, abbr, acronym, address, big, cite, /*code,*/
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -145,7 +145,7 @@ p img {
     border: none;
 }
 
-pre, code {
+/*pre, code {
     width: 100%;
     color: #222;
     background-color: #fff;
@@ -174,7 +174,7 @@ code {
 pre code {
     display: block;
     box-shadow: none;
-}
+}*/
 
 blockquote {
     color: #666;
@@ -393,11 +393,11 @@ Small Device Styles
         font-size: 12px;
     }
 
-    code, pre {
+    /*code, pre {
         min-width: 320px;
         max-width: 480px;
         font-size: 11px;
-    }
+    }*/
 
 }
 
